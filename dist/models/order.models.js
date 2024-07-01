@@ -9,7 +9,7 @@ const schema = new mongoose.Schema({
             type: String,
             required: true
         },
-        piCode: {
+        pinCode: {
             type: Number,
             required: true
         },
@@ -29,7 +29,7 @@ const schema = new mongoose.Schema({
     },
     subTotal: {
         type: Number,
-        required: true
+        required: true //
     },
     tax: {
         type: Number,
